@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { SiscOperatore } from './model/siscoperatore';
 
-const baseUrl = 'http://localhost:51423/api/siscoperatori/';
+const baseUrl =
+  'http://work.siscom.eu:8081/Servizi/SiscSupportService/api/siscoperatori';
 
 @Component({
   selector: 'my-app',
